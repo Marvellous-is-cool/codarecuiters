@@ -1,0 +1,124 @@
+@import url(cssAddOns/animate.css);
+@import url(cssAddOns/fonts.css);
+@import url(cssAddOns/bs/css/bootstrap-grid.css);
+@import url(cssAddOns/bs/css/bootstrap-grid.min.css);
+@import url(cssAddOns/bs/css/bootstrap-reboot.css);
+@import url(cssAddOns/bs/css/bootstrap-reboot.min.css);
+@import url(cssAddOns/bs/css/bootstrap.css);
+@import url(cssAddOns/bs/css/bootstrap.min.css);
+
+.NameDesign {
+  color: rgb(211, 12, 12);
+  font-family: "Alata";
+}
+
+.tagStyle {
+  color: rgba(138, 32, 32, 0.801);
+  font-weight: bold;
+  text-transform: lowercase;
+  font-style: italic;
+  font-family: "Autour One";
+}
+
+.btn {
+  font-family: "Alata";
+  border-radius: 0.4em;
+  outline: none;
+}
+
+.btn:active,
+.btn::selection,
+.btn:hover,
+.btn:visited,
+.btn:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 1px rgba(165, 42, 42, 0.384);
+}
+
+.btn-rbg {
+  background-color: white;
+  border-color: #a52a2a;
+}
+
+.name1 {
+  color: rgb(4, 36, 78);
+  font-family: "Atomic Age";
+}
+
+.name2 {
+  color: rgb(0, 0, 0);
+  font-family: "Atomic Age";
+}
+
+.adDivBoard {
+  width: 1700px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto;
+  background-color: rgba(165, 42, 42, 0.185);
+  box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.103);
+}
+
+.SI {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #a52a2ab6;
+}
+
+.pageHeader {
+  box-shadow: 0px 1px 5px 1px rgba(128, 128, 128, 0.055);
+}
+
+.cardTemp {
+  box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.103);
+}
+
+.CardTitle {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.RHeader {
+  background-color: #1c274c;
+  color: white;
+  margin-left: -0.5em;
+  text-indent: 2em;
+  border-radius: 0.2em;
+}
+
+.Step,
+.Ques {
+  box-shadow: 0px 3px 1px 1px rgba(128, 128, 128, 0.103);
+}
+
+.StepNumber,
+.QuesNumber {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: #a52a2a;
+}
+
+.QuesNumber {
+  background-color: #1c274c;
+}
+
+.Ans {
+  color: #a52a2a;
+  font-family: "Autour One";
+}
+
+.footer {
+  background-color: #000207;
+}
+
+.copyright {
+  color: grey;
+}
