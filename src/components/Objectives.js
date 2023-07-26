@@ -11,7 +11,7 @@ const CardTemp = (props) => {
   const body = props.body;
   return (
     <div className="col-sm-3 mt-5">
-      <img className="cardTemp" src={img} width="80px" height="80px" />
+      <img className="cardTemp" src={img} width="80px" height="80px" alt="image_logo" />
       <h4 className="CardTitle mt-2">{title}</h4>
       <p className="CardBody">{body}</p>
     </div>

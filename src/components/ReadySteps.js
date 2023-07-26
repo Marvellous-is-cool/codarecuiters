@@ -12,9 +12,9 @@ const Step = (props) => {
   let [hdeTxt, setHdeTxt] = useState("animate__animated animate__fadeInDown");
 
   const toggleSlide = () => {
-    setChImg(chImg == ar_right ? ar_down : ar_right);
+    setChImg(chImg === ar_right ? ar_down : ar_right);
     setHdeTxt(
-      hdeTxt == "animate__animated animate__fadeOutUpBig d-none"
+      hdeTxt === "animate__animated animate__fadeOutUpBig d-none"
         ? "animate__animated animate__fadeIn"
         : "animate__animated animate__fadeOutUpBig d-none"
     );
@@ -28,6 +28,7 @@ const Step = (props) => {
           onClick={toggleSlide}
           width="20px"
           height="30px"
+          alt="arrow_right_down"
         />
         <div className="col-sm-1 StepNumber">
           <p className="text-center">{stepNo}</p>

@@ -28,6 +28,7 @@ const Ads = (props) => {
                 src={img}
                 width="100px"
                 height="100px"
+                alt="animate_image"
               />
             </h1>
           </div>

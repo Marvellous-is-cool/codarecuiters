@@ -20,8 +20,8 @@ const Temp = (props) => {
   return (
     <div className="flex-container col-sm mr-1">
       <span className={animEff}>
-        <a className="a" href={link} target="_blank">
-          <img src={socialImg} height="30px" width="30px" />
+        <a className="a" href={link}>
+          <img src={socialImg} height="30px" width="30px" alt="Social_image" />
         </a>
       </span>
     </div>
