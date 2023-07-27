@@ -31,7 +31,7 @@ const Ques = (props) => {
           onClick={toggleSlide}
           width="20px"
           height="30px"
-          alt="click_to_change"
+          alt="arrow_right"
         />
         <div className="col-sm-1 QuesNumber">
           <p className="text-center">Q{QuesNo}</p>
