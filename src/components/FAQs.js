@@ -52,7 +52,7 @@ const FAQs = () => {
     <div className="mt-5 mb-5">
       <h3 className="row p-1">
         <span className="col-sm-8">Frequently Asked Questions?</span>
-        <img src={faq} height="40px" width="40px" />
+        <img src={faq} height="40px" width="40px" alt="faq_img" />
       </h3>
       <p>
         Below, we have put together some frequently asked questions, if you ever
